@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Froh",
+    "slug": "Quotesz",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#000000"
+    },
+    "android":{
+      "package": "com.Asian_Nerd_Software.Froh",
+      "versionCode": 1,
+      "permissions":[
+        "com.android.launcher.permission.INSTALL_SHORTCUT"
+      ]
+    }
+  }
+}
